@@ -10,7 +10,7 @@ resource "null_resource" "null-test-cd" {
   }
 }
 
-resource "null_resource" "null-test-cd" {
+resource "null_resource" "null-test-comment" {
   provisioner "local-exec" {
     command = "printenv"
   }
