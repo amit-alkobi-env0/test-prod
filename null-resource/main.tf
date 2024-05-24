@@ -3,3 +3,9 @@ resource "null_resource" "null" {
     command = "printenv"
   }
 }
+
+resource "null_resource" "null-test-cd" {
+  provisioner "local-exec" {
+    command = "printenv"
+  }
+}
