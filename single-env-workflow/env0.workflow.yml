@@ -2,3 +2,6 @@ environments:
   rootService1:
     name: nullService1
     templateName: 'null-resource-github'
+  anotherRoot:
+    name: nullService2
+    templateName: 'null-resource-github'
